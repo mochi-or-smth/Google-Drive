@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: auto;
+}
+
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.games img {
+    height: 120px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.games a {
+    text-decoration: none;
+    color: white;
+}
+
+.games img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.title {
+    margin-top: 80px;
+}
+
+.disclaimer {
+    margin-top: 80px;
+    font-size: 14px;
+    color: white;
+}
